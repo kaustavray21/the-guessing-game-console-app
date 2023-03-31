@@ -18,4 +18,11 @@ public class Player {
     public void guess() {
         number = (int) (Math.random() * 10.0);
     }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "number=" + number +
+                '}';
+    }
 }
