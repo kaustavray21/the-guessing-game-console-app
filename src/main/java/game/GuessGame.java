@@ -29,6 +29,11 @@ public class GuessGame {
         while (true) {
             // print the target number on the console for help
             System.out.println("targetNumber = " + targetNumber);
+
+            // call each player's guess method to make them guess a number
+            playerOne.guess();
+            playerTwo.guess();
+            playerThree.guess();
         }
     }
 }
