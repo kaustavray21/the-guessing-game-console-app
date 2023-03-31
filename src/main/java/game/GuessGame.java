@@ -26,6 +26,9 @@ public class GuessGame {
         int targetNumber = (int) (Math.random() * 10);
         System.out.println("I'm thinking of a number between 0 to ...");
 
+        while (true) {
+
+        }
     }
 }
 
