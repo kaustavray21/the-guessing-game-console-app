@@ -21,6 +21,11 @@ public class GuessGame {
         boolean playerOneIsRight = false;
         boolean playerTwoIsRight = false;
         boolean playerThreeIsRight = false;
+
+        // Make 'target' number that the players have to guess.
+        int targetNumber = (int) (Math.random() * 10);
+        System.out.println("I'm thinking of a number between 0 to ...");
+
     }
 }
 
