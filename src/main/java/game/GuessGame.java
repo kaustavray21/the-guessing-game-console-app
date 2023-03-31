@@ -5,4 +5,12 @@ public class GuessGame {
     Player playerOne;
     Player playerTwo;
     Player playerThree;
+
+    // Create three player objects and assign them to three player instance variables.
+    public void startGame() {
+        playerOne = new Player();
+        playerTwo = new Player();
+        playerThree = new Player();
+    }
 }
+
