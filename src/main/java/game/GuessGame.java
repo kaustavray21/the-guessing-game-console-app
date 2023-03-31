@@ -24,11 +24,11 @@ public class GuessGame {
 
         // Make 'target' number that the players have to guess.
         int targetNumber = (int) (Math.random() * 10);
-        System.out.println("I'm thinking of a number between 0 to ...");
+        System.out.println("I'm thinking of a number between 0 and 9 ...");
 
         while (true) {
-
-
+            // print the target number on the console for help
+            System.out.println("targetNumber = " + targetNumber);
         }
     }
 }
