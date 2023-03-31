@@ -1,8 +1,8 @@
 package game;
 
 public class Player {
-    // This instance variable stores the number that a player has guessed.
-    int number;
+    // This instance variable ( or field) stores the number that a player has guessed.
+    private int number;
 
     // create a parameterized constructor
     public Player(int number) {
