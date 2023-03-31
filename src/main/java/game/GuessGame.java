@@ -67,6 +67,8 @@ public class GuessGame {
                 System.out.println("Player two got it right?" + playerTwoIsRight);
                 System.out.println("Player three got it right?" + playerThreeIsRight);
                 break;
+            } else {
+                System.err.println("Please try again!!!!");
             }
         }
     }
