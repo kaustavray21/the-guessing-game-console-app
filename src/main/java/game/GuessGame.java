@@ -63,9 +63,9 @@ public class GuessGame {
             // if player one OR player two OR player three is right (the || operator means OR)
             if (playerOneIsRight || playerTwoIsRight || playerThreeIsRight) {
                 System.out.println("We have a winner!");
-                System.out.println("Player one got it right?" + playerOneIsRight);
-                System.out.println("Player two got it right?" + playerTwoIsRight);
-                System.out.println("Player three got it right?" + playerThreeIsRight);
+                System.out.println("Player one got it right? " + playerOneIsRight);
+                System.out.println("Player two got it right? " + playerTwoIsRight);
+                System.out.println("Player three got it right? " + playerThreeIsRight);
                 break;
             } else {
                 System.err.println("Please try again!!!!");
