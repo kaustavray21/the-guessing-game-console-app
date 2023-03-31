@@ -17,6 +17,10 @@ public class GuessGame {
         int guessPlayerTwo = 0;
         int guessPlayerThree = 0;
 
+        // Declare 3 variables to hold a true or false based on the player's answer.
+        boolean playerOneIsRight = false;
+        boolean playerTwoIsRight = false;
+        boolean playerThreeIsRight = false;
     }
 }
 
