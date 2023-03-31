@@ -11,7 +11,7 @@ public class Player {
 
     // Create a no arguments constructor
     public Player() {
-        this.number = 0;
+        guess();
     }
 
     // Create a method to guess the number.
