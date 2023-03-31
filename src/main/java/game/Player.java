@@ -19,6 +19,10 @@ public class Player {
         number = (int) (Math.random() * 10.0);
     }
 
+    public int getNumber() {
+        return number;
+    }
+
     @Override
     public String toString() {
         return "Player{" +
