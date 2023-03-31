@@ -34,6 +34,17 @@ public class GuessGame {
             playerOne.guess();
             playerTwo.guess();
             playerThree.guess();
+
+            // get each player's guess(the result of their guess() method running) by accessing the member
+            // variable of each player via its getter method
+            guessPlayerOne = playerOne.getNumber();
+            System.out.println("guessPlayerOne = " + guessPlayerOne);
+
+            guessPlayerTwo = playerTwo.getNumber();
+            System.out.println("guessPlayerTwo = " + guessPlayerTwo);
+
+            guessPlayerThree = playerThree.getNumber();
+            System.out.println("guessPlayerThree = " + guessPlayerThree);
         }
     }
 }
