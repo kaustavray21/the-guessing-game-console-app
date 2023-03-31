@@ -45,6 +45,20 @@ public class GuessGame {
 
             guessPlayerThree = playerThree.getNumber();
             System.out.println("guessPlayerThree = " + guessPlayerThree);
+
+            // check each player's guess to see if it matches the target number, if a player is right, then set that
+            // player's variable to be true (remember, we set it false by default)
+            if (guessPlayerOne == targetNumber) {
+                playerOneIsRight = true;
+            }
+
+            if (guessPlayerTwo == targetNumber) {
+                playerTwoIsRight = true;
+            }
+
+            if (guessPlayerThree == targetNumber) {
+                playerThreeIsRight = true;
+            }
         }
     }
 }
